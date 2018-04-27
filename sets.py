@@ -16,7 +16,6 @@ def union(S, T):
     return difference(S, T) + T
 
 
-#
 def intersection(S, T):
     return [e for e in union(S, T) if e in S and e in T]
 
